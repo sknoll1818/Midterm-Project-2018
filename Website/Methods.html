@@ -2,32 +2,38 @@
 <html>
 
 <head>
-  <title>Sam Knoll Cubing</title>
+  <title>SpeedSolving Methods</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="CSS/style.css">
 </head>
 
-<body>
-<img src="header.png" alt="Header Image" width="100%" height="150px">
+<body id=method>
+      <header>
+<img src="images/header.png" alt="Header Image" width="100%" height="150px">
   <span id=methods>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pb.html">Pbs, Mains, Globals</a></li>
-        <li><a href="methods.html">Methods</a></li>
-        <li><a href="comps.html">Competitions</a></li>
-        <li><a href="algs.html">Algorithms</a></li>
-        <li><a href="Solve_Analysis.html">Solve Analysis</a></li>
+        <li id="homepage" style="border-bottom-style:solid;"><a href="index.html">Home</a></li>
+        <li id="pbPage" style="border-bottom-style:solid;"><a href="pb.html">Pbs, Mains, Globals</a></li>
+        <li id="methodPage"><a href="methods.html">Methods</a></li>
+        <li id="compPage" style="border-bottom-style:solid;"><a href="comps.html">Competitions</a></li>
+        <li id="algPage" style="border-bottom-style:solid;"><a href="algs.html">Algorithms</a></li>
+        <li id="solveAnalysisPage" style="border-bottom-style:solid;"><a href="Solve_Analysis.html">Solve Analysis</a></li>
+        <li id="AboutMePage" style="border-bottom-style:solid;"><a href="about.html">About Me</a></li>
+        <li id="WCA" style="border-bottom-style:solid;"><a href="https://www.worldcubeassociation.org/persons/2015KNOL01">WCA Profile</a></li>
+        <li id="YT" style="border-bottom-style:solid;"><a href="https://www.youtube.com/channel/UCblNWIDdMFNwIe0VFx7W4ZA">Youtube</a></li>
       </ul>
     </nav>
+  </header>
+    <br>
   <h1>Events</h1>
   <h2>3x3</h2>
-  <p>For 3x3, I am dual-color-neutral for white/yellow. After that, i build all
+  <p>For 3x3, I am dual-color-neutral for white/yellow. After cross, I build all
      of my f2l pairs efficiently up until last slot.
     When I do last slot, if my pieces pair up, I will solve EO unless it
     requires too many moves. If they do not pair up, I do a normal insert.
     If EO is solved, I will either use a COLL or ZBLL algorithm; if EO is not
-    solved, I will do OLL then PLL. Here is the
+    solved, I will do OLL then PLL. Here are the
     <a href="http://www.brookscubing.com/wp-content/uploads/2016/03/Anthony-Brooks-ZBLL.pdf">ZBLL Doc that I use</a>
     and the <a href="http://www.cyotheking.com/coll/"> COLL algs I use</a>.
   </p>
@@ -45,7 +51,7 @@
     <p>For the rest of the big cubes, I use the Reduction Method with Freeslice Edge Grouping.
       I do color neutral centers, and I do at most one commutator for L2C. I mainly
        build bars, but sometimes I'll follow different structures. For edges,
-       I group on E and put them into either U or D layer. For L4E, I use slice-flip-slice
+       I group on the E slice and put them into either the U or D layer. For L4E, I use slice-flip-slice
        and I know full L2E for 5x5.
     </p>
     <h2>3BLD</h2>
@@ -62,7 +68,10 @@ available <a href="https://sknoll.cubing.net/blddb.html">here!</a></p>
 
 
 </span>
- <small>&copy; Copyright {{currentYear}}, Example Corporation</small>
+<footer style="position:relative;">
+ <small>&copy; Copyright Sam 2019</small>
+ <small><a href="source.html">Sources</a></small>
+</footer>
 </body>
 
 </html>

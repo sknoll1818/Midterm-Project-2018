@@ -1,45 +1,62 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>Sam Knoll Cubing</title>
+      <title>Algorithms</title>
       <meta charset="utf-8">
-      <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+      <style>
+.event li{
+  position:relative;
+  left:4%;
+}
+
+      </style>
   </head>
-  <body>
-    <img src="header.png" alt="Header Image" width="100%" height="150px">
+  <body id=alg>
+    <header>
+    <img src="images/header.png" alt="Header Image" width="100%" height="150px">
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="pb.html">Pbs, Mains, Globals</a></li>
-        <li><a href="methods.html">Methods</a></li>
-        <li><a href="comps.html">Competitions</a></li>
-        <li><a href="algs.html">Algorithms</a></li>
-        <li><a href="Solve_Analysis.html">Solve Analysis</a></li>
+        <li id="homepage" style="border-bottom-style:solid;"><a href="index.html">Home</a></li>
+        <li id="pbPage" style="border-bottom-style:solid;"><a href="pb.html">Pbs, Mains, Globals</a></li>
+        <li id="methodPage" style="border-bottom-style:solid;"><a href="methods.html">Methods</a></li>
+        <li id="compPage" style="border-bottom-style:solid;"><a href="comps.html">Competitions</a></li>
+        <li id="algPage"><a href="algs.html">Algorithms</a></li>
+        <li id="solveAnalysisPage" style="border-bottom-style:solid;"><a href="Solve_Analysis.html">Solve Analysis</a></li>
+        <li id="AboutMePage"><a href="about.html">About Me</a></li>
+        <li id="WCA" style="border-bottom-style:solid;"><a href="https://www.worldcubeassociation.org/persons/2015KNOL01">WCA Profile</a></li>
+        <li id="YT" style="border-bottom-style:solid;"><a href="https://www.youtube.com/channel/UCblNWIDdMFNwIe0VFx7W4ZA">Youtube</a></li>
       </ul>
     </nav>
-
-    <ul style="list-style-image: url(images/3x3x3.png)"><h1 style="display:inline">3x3</h1>
+  </header>
+<div>
+  <br>
+  <br>
+  <br>
+    <ul style="list-style-image: url(images/3x3x3.png)" class="event"><h1 style="display:inline">3x3</h1>
     <li><a href=http://algdb.net/puzzle/333/OLL>OLL</a></li>
     <li><a href=http://algdb.net/puzzle/333/PLL>PLL</a></li>
     <li><a href=http://algdb.net/puzzle/333/ZBLL-zbllh>ZBLL</a></li>
     <li><a href=http://www.cyotheking.com/winter-variation/>Winter Variation</a></li>
     <li><a href="https://www.cubeskills.com/uploads/pdf/tutorials/coll-algorithms.pdf">COLL</a></li>
+    <li><a href="https://sites.google.com/site/antoineccantin/2gll">2GLL</a></li>
   </ul>
-  <ul style="list-style-image: url(images/3x3x3.png)"><h1 style="display:inline">2x2</h1>
+  <ul style="list-style-image: url(images/3x3x3.png)" class="event"><h1 style="display:inline">2x2</h1>
     <li><a href="http://www.cyotheking.com/cll2-2/">CLL</a></li>
     <li><a href="http://www.cyotheking.com/cll2-1/">EG-1</a></li>
     <li>Anti CLL</li>
   </ul>
-  <ul style="list-style-image: url(images/3x3x3.png)"><h1 style="display:inline">5x5/6x6/7x7</h1>
+  <ul style="list-style-image: url(images/3x3x3.png)" class="event"><h1 style="display:inline">5x5/6x6/7x7</h1>
     <li><a href="https://www.cubeskills.com/tutorials/last-2-edges-algorithms-5x5">Last 2 Edges</a></li>
   </ul>
-  <ul style="list-style-image: url(images/3x3x3.png)"><h1 style="display:inline">Square-1</h1>
+  <ul style="list-style-image: url(images/3x3x3.png)" class="event"><h1 style="display:inline">Square-1</h1>
     <li><a href="http://www.cubezone.be/square1step3.html">EO</a></li>
     <li><a href="http://www.cubezone.be/square1step4.html">CP</a></li>
   </ul>
-  <ul style="list-style-image: url(images/3x3x3.png)"><h1 style="display:inline">3BLD</h1>
+  <ul style="list-style-image: url(images/3x3x3.png)" class="event"><h1 style="display:inline">3BLD</h1>
     <li><a href="https://yutu58.github.io/33style/?fbclid=IwAR3-myJmQtpVTFThNimOdKExEJ-ysTdcba1VZzkRTt6s-Td30IWKCEBKedw">UF 3-Style</a></li>
     </ul>
+</div>
 
 
 
@@ -52,8 +69,10 @@
 
 
 
-
- <small>&copy; Copyright {{currentYear}}, Example Corporation</small>
+    <footer>
+     <small>&copy; Copyright Sam 2019</small>
+     <a href="source.html">Sources</a>
+    </footer>
   </body>
 
 
